@@ -1,0 +1,113 @@
+.background-container {
+  width: 100vw;
+  height: 100vh;
+}
+.background {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.background .background-img {
+  width: 100vw;
+  height: 100vh;
+}
+.whats-new {
+  background: #002b33;
+  margin: -13vw 0 0 0;
+  padding-bottom: 30px;
+  color: #ffffff;
+  overflow: hidden;
+  padding: 7.7vw 0px;
+}
+.whats-new h5 {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 4px;
+  margin-bottom: 30px;
+  padding: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.slick-arrow {
+  position: absolute;
+  top: 110px;
+  border: 0;
+  background-color: transparent;
+  background: transparent url("../public/assets/left-arrow.png") no-repeat
+    center center;
+  border: 0.8px solid rgba(255, 255, 255, 0.23);
+  font-size: 0px;
+  outline: none;
+  overflow: hidden;
+  height: 56px;
+  width: 56px;
+}
+.whats-new a {
+  border-top: 4px solid #48a8c0;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  display: flex;
+  outline: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: baseline;
+  margin-right: 30px;
+  min-height: 308px;
+  padding: 37px;
+  text-decoration: none;
+  text-align: left;
+}
+.whats-new a:hover {
+  background: #14656b;
+  border-color: #c0cf13;
+}
+.whats-new a p.card-title {
+  color: #48a8c0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 0px 0px 12px;
+}
+.whats-new a h6.card-description {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.slick-arrow {
+  background: transparent url("../public/assets/left-arrow.png") no-repeat
+    center center !important;
+  border: 0.8px solid rgba(255, 255, 255, 0.23);
+  font-size: 0px;
+  outline: none;
+  overflow: hidden;
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  top: 110px;
+  border: 0;
+  background-color: transparent !important;
+  z-index: 5;
+}
+.slick-arrow.slick-prev {
+  left: 70px;
+}
+.slick-arrow.slick-next {
+  right: 70px;
+  transform: rotate(180deg);
+}
+.slick-arrow:before {
+  content: none !important;
+}
+.quote1 {
+  width: 770px;
+  left: 0;
+  height: auto;
+  position: absolute;
+  right: 0;
+  margin: 0 auto;
+  top: 135px;
+}
